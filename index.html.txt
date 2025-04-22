@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>아름다운교회</title>
+</head>
+<body>
+  <h1>아름다운교회에 오신 것을 환영합니다!</h1>
+  <p>이곳은 GitHub Pages로 만든 첫 번째 홈페이지입니다.</p>
+</body>
+</html>
