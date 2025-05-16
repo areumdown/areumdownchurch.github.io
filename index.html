@@ -1,56 +1,167 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>아름다운장로교회</title>
-  <style>
-    body { font-family: 'Noto Sans KR', sans-serif; margin: 0; background: #ffffff; color: #333; }
-    header { background: #004aad; color: white; padding: 40px 20px; text-align: center; }
-    nav { background: #003399; color: white; padding: 10px; text-align: center; }
-    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    main { padding: 20px; max-width: 800px; margin: auto; }
-    footer { background: #f0f0f0; color: #666; text-align: center; padding: 20px; font-size: 0.9em; }
-    h1, h2 { margin-top: 0; }
-    .banner { background: url('https://source.unsplash.com/1600x400/?church') no-repeat center; background-size: cover; height: 200px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>아름다운장로교회 Areumdown presbyterian Church</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>아름다운장로교회</h1>
-    <p>하나님의 사랑으로 충만한 교회</p>
+    <h1>아름다운장로교회에 오신 것을 환영합니다!</h1>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="gallery.html">사진 갤러리</a>
+      <a href="about.html">교회 소개</a>
+      <a href="sermons.html">설교</a>
+      <a href="news.html">공지사항</a>
+      <a href="give.html">헌금 안내</a>
+    </nav>
   </header>
-
-  <nav>
-    <a href="#">홈</a>
-    <a href="#">교회소개</a>
-    <a href="#">예배안내</a>
-    <a href="#">오시는길</a>
-    <a href="#">문의하기</a>
-  </nav>
-
-  <div class="banner"></div>
-
-  <main>
-    <h2>주님의 이름으로 환영합니다!</h2>
-    <p>아름다운장로교회 홈페이지에 방문해주셔서 감사합니다.<br>
-       하나님의 은혜와 평강이 여러분의 가정에 함께 하시길 기도합니다.</p>
-
+  <section class="hero">
+    <img src="images/worship_background.jpg" alt="예배 장면" />
+  </section>
+  <section class="services">
     <h2>예배 안내</h2>
     <ul>
-      <li>주일예배: 주일 오후 3시</li>
-      <li>수요예배: 수요일 오후 8시</li>
-      <li>주일학교: 주일 오후 3시</li>
+      <li>주일예배: 주일 오후 3시 본당</li>
+      <li>수요예배: 수요일 오후 8시 소예배실(17)</li>
+      <li>주일 영어예배: 주일 오전 10:30</li>
+      <li>주일 학교: 주일 오후전 3시</li>
+      <li>한글학교: 주일 오후 4:30</li>
     </ul>
+  </section>
+</body>
+</html>
 
-    <h2>연락처</h2>
-    <p>주소: 10201 Bahia Dr, Cutler Bay, FL 33189<br>
-       전화: (267) 664-2163~4<br>
-       이메일: areumdownchurch@gmail.com</p>
-  </main>
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>사진 갤러리 - 아름다운장로교회</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>사진 갤러리</h1>
+  <section class="gallery-category">
+    <h2>예배 사진</h2>
+    <div class="gallery-grid"> <!-- 이미지 썸네일 삽입 --></div>
+  </section>
+  <section class="gallery-category">
+    <h2>성가대 및 찬양팀</h2>
+    <div class="gallery-grid"></div>
+  </section>
+  <section class="gallery-category">
+    <h2>교회 행사</h2>
+    <div class="gallery-grid"></div>
+  </section>
+  <section class="gallery-category">
+    <h2>교우들과의 교제</h2>
+    <div class="gallery-grid"></div>
+  </section>
+</body>
+</html>
 
-  <footer>
-    © 2025 아름다운장로교회 | 모든 권리 보유
-  </footer>
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>교회 소개 - 아름다운장로교회</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>교회 소개</h1>
+  <section>
+    <h2>담임목사 인사말</h2>
+    <p>샬롬! 주님의 이름으로 환영합니다...</p>
+  </section>
+  <section>
+    <h2>교회 설립 연혁</h2>
+    <p>1986년 설립, 지역 복음화에 힘쓰는 아름다운장로교회...</p>
+  </section>
+  <section>
+    <h2>비전과 사명</h2>
+    <p>예배와 선교, 양육과 봉사의 공동체로서...</p>
+  </section>
+  <section>
+    <h2>위치 및 연락처</h2>
+    <p>10201 Bahia Dr, Cutler Bay, FL 33189</p>
+    <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300"></iframe>
+  </section>
+</body>
+</html>
+
+<!-- sermons.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>설교 및 말씀자료 - 아름다운장로교회</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>설교 및 말씀자료</h1>
+  <section>
+    <h2>최근 설교</h2>
+    <ul>
+      <li>
+        <strong>말씀:</strong> 요한복음 20:15~18<br />
+        <strong>제목:</strong> 네 부모를 공경하라<br />
+        <strong>설교자:</strong> 오봉환 목사<br />
+        <a href="#">영상 보기</a>
+      </li>
+    </ul>
+  </section>
+</body>
+</html>
+
+<!-- news.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>공지사항 - 아름다운장로교회</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>공지사항 & 소식</h1>
+  <section>
+    <h2>주보 안내</h2>
+    <p>이번 주 주보 파일을 다운로드하세요.</p>
+  </section>
+  <section>
+    <h2>행사 일정</h2>
+    <p>맥추절감사 예배: 7월 6일 오후 3시</p>
+  </section>
+  <section>
+    <h2>기도 제목 나눔</h2>
+    <p>전도중에 있는 대상자들을 위해 함께 기도해 주세요.</p>
+    <p>환우들을 위해 함께 기도해 주세요.</p>
+    <p>선교사님들을 위해 전심으로 기도해 주세요.</p>
+  </section>
+</body>
+</html>
+
+<!-- give.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>헌금 안내 - 아름다운장로교회</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>헌금 안내 및 후원</h1>
+  <section>
+    <h2>온라인 헌금</h2>
+    <p>Bank of Chease<br />Routing: 00000000<br />Account: 00000000</p>
+  </section>
+  <section>
+    <h2>후원 방법</h2>
+    <p>PayPal 또는 Zelle을 통해 후원 가능합니다.</p>
+  </section>
 </body>
 </html>
