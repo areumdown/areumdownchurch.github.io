@@ -3,6 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아름다운교회</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: linear-gradient(to right, #92a3fd, #9dceff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x500?text=Areumdown+Church') center/cover no-repeat;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>아름다운교회</h1>
+    <p>하나님의 사랑과 은혜가 넘치는 교회</p>
+  </header>
+
+  <nav>
+    <a href="#welcome">환영 인사</a>
+    <a href="#worship">예배 안내</a>
+    <a href="#gallery">사진첩</a>
+    <a href="#bulletin">주보</a>
+    <a href="#contact">오시는 길</a>
+  </nav>
+
+  <div class="hero">
+    주일예배에 여러분을 초대합니다
+  </div>
+
+  <section id="welcome" class="section">
+    <h2>환영합니다</h2>
+    <p>아름다운교회를 방문해 주셔서 감사합니다. 저희 교회는 하나님의 사랑을 실천하고 복음을 전하는 공동체입니다.</p>
+  </section>
+
+  <section id="worship" class="section">
+    <h2>예배 안내</h2>
+    <ul>
+      <li>주일예배: 주일 오전 11시</li>
+      <li>수요예배: 수요일 오후 7시</li>
+      <li>새벽예배: 화~토 오전 6시</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>사진첩</h2>
+    <div class="gallery">
+      <img src="/images/20231015_142230.jpg" alt="Church photo 1">
+      <img src="/images/1729475637770-9.jpg" alt="Church photo 2">
+    </div>
+  </section>
+
+  <section id="bulletin" class="section">
+    <h2>주보</h2>
+    <div class="gallery">
+      <img src="/images/250420 아름다운교회 주일주보001.jpg" alt="Bulletin 1">
+      <img src="/images/250105 아름다운교회 주일주보002.jpg" alt="Bulletin 2">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>오시는 길</h2>
+    <p>주소: 10201 Bahia Dr, Cutler Bay, FL 33189</p>
+    <p>전화: (123) 456-7890</p>
+    <p>이메일: contact@areumdownchurch.org</p>
+  </section>
+
+  <footer>
+    &copy; 2025 아름다운교회. All rights reserved.
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>아름다운교회 Areumdown Church</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <style>
